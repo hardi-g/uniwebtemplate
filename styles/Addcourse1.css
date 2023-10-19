@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.header {
+    background-color: #d1d8e0;
+    position: relative;
+    width: 1538px;
+    top: -10px;
+    left:-10px;
+    height: 75px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.header ul li {
+    padding-right: 45px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 20px;
+    position: relative;
+    margin-left:30px;
+}
+
+.ip {
+    position: relative;
+    border-radius: 7px;
+    width: 300px;
+    height: 22px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.labelbig {
+    font-size: 20px;
+    position: relative;
+    margin-left:770px;
+    top: -280px
+}
+
+.iparea {
+    position: relative;
+    border-radius: 7px;
+    width: 600px;
+    height: 170px;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    resize: none;
+    margin-left: 765px;
+    top:-280px;
+}
+
+.labelbig2 {
+    font-size: 20px;
+    position: relative;
+    margin-left:30px;
+    top: -230px
+}
+
+.iparea2 {
+    position: relative;
+    border-radius: 7px;
+    width: 800px;
+    height: 150px;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    resize: none;
+    margin-left: 30px;
+    top:-210px;
+}
+
+.submit {
+    position: relative;
+    font-size: 30px;
+    border: solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: white;
+    cursor: pointer;
+    top: -330px;
+    margin-left: 1070px;
+}

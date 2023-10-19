@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"  href="/styles/Autogeneratecourse.css">
+
+    <title>Departments</title>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li style="padding-right: 730px;">University</li>
+            <a href="/home"><li><u>Home</u></li></a>
+            <a href="/about"><li>About</li></a>
+            <a href="/department"><li>Departments</li></a>
+            <a href="/courses"><li>Courses</li></a>
+            <a href="/Profile"><li>Profile</li></a>
+        </ul>
+    </div>
+     <h1 class="coursetitle"><%= CourseName %></h1>
+    <div class="details">
+    
+    <h2 class="hours k">Duration:<span class="span"><%= hours %></span> </h1>
+    <h2 class="language k">Language:<span class="span"><%= language %></span></h1>
+    <h2 class="platform k">Platform:<span class="span"><%= platform %></span></h1>
+    <h2 class="credits k">Credits:<span class="span"><%= credits %></span></h1>
+    <h2 class="certificate k">Certificate:<span class="span"><%= certificate %></span></h1>
+    </div>
+   <div class="">
+    <h2 class="complete m"><%= complete_description %></h2>
+   </div>
+    <h2>Student Register</h2>
+    <form method="post" action="/courses/<%= CourseName %>">
+        <label class="labelstureg">Enter your name</label><br><br>
+        <input name="name"  class="inputh"><br><br>
+        <label class="labelstureg">Regestration number</label><br><br>
+        <input  name="registration" class="inputh"><br><br>
+        <button type="submit" class="sbutton">Register</button><br><br>
+
+    </form>
+
+
+    <footer>
+        <div style=" bottom: 0; left: 0; width: 100%; background-color: #1580ab; color: rgb(17, 16, 16); padding: 20px; margin-bottom: -10px;margin-left: -10px;;text-align: center;">
+            
+            <p style="font-size: 20px">The University</p>
+            <p>&copy; 2023 All rights reserved.</p>
+      </footer>
+</body>
+</html>

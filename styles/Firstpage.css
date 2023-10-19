@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.all {
+    font-family: 'Poppins';
+    background-color: #f2f2f2;
+}
+
+.stuff {
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top:150px;
+}
+
+.student {
+    position: relative;
+    top:200px;
+    margin-left:500px;
+}
+
+.faculty {
+    position: relative;
+    top: 55px;
+    margin-left: 950px;
+}
+
+.student p {
+    font-size: 24px;
+    margin-left: -50px ;
+}
+
+.faculty p {
+    font-size: 24px;
+    margin-left: -30px ;
+}

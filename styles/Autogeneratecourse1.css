@@ -1,0 +1,47 @@
+.header {
+    background-color: #d1d8e0;
+    position: relative;
+    width: 1538px;
+    top: -10px;
+    left:-10px;
+    height: 75px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.header ul li {
+    padding-right: 45px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.coursetitle{
+    text-align: center;
+}
+
+.hours{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.complete{
+    white-space: pre-wrap;
+}
+
+footer{
+    margin-top: 60px;
+}

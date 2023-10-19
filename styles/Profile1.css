@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.header {
+    background-color: #d1d8e0;
+    position: relative;
+    width: 1538px;
+    top: -10px;
+    left:-10px;
+    height: 75px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.header ul li {
+    padding-right: 45px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+.profilepic{
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+    margin-left: 650px;
+    margin-top:40px;
+    margin-bottom:100px;
+}
+
+.aa{
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+
+.bb{
+    position: absolute;
+    left:0px;
+    top:50px;
+}
+
+.cc{
+    position: absolute;
+    left:0px;
+    top:100px;
+}
+.dd{
+    position: absolute;
+    left:0px;
+    top:150px;
+}
+.changepassword{
+    position: relative;
+    left:800px;
+    bottom:100px;
+    margin-bottom: 200px;
+}
+.vl {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 300px;
+    position: absolute;
+    left:760px;
+    top:400px;
+}
+
+.content {
+    font-family: 'Poppins';
+}
+
+.info {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+.fields {
+    position: relative;
+    margin-top: -220px;
+    margin-left: 370px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fields h1 {
+    border: 2px black;
+    border-style: solid;
+    border-radius: 7px;
+    width: 350px;
+}
+
+.pwchange {
+    position: relative;
+    border: 2px black;
+    border-style: solid;
+    border-radius: 7px;
+    width: 350px;
+    height: 36px;
+    margin-left: 50px;
+    margin-top:20px;
+}
+
+.label {
+    position: relative;
+    margin-bottom:0px;
+}
+
+.pwform {
+    position: relative;
+    margin-top:-20px;
+}
+.sbutton{
+    background-color: #00d0ff;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+.logout{
+    color: red;
+    position: absolute;
+    right: 50px;
+    top:100px;
+    font-size: 20px;
+}
+.logouta{
+    text-decoration: none;
+    color: red;
+}

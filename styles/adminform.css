@@ -1,0 +1,235 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00ccff;
+  padding: 10px;
+  margin: -8px -8px 50px -8px;
+  border: #0c0c0c;
+  border-style: solid;
+  border-width: 1px;
+  font-style: bold;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  margin-right: 10px;
+}
+
+header li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.b  {
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secbg {
+  position: relative;
+  right: 10px;
+  margin-top: -50px;
+  width: 1488px;
+  height: 620px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-left: 50px;
+}
+
+.rside {
+  position: absolute;
+  background-color: rgb(161, 161, 161);
+  height:670px;
+  width: 50px;
+  top:0px;
+  right:13px;
+  border-radius: 20px 0px 0px 10px;
+}
+
+.lside {
+  position: absolute;
+  background-color: rgb(161, 161, 161);
+  height:670px;
+  width: 50px;
+  top:0px;
+  left:0px;
+  border-radius: 0px 10px 20px 0px ;
+}
+
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  margin-top:30px;
+  margin-bottom: 40px;
+  position: absolute;
+  left:120px;
+}
+
+.text {
+  font-size: 16spx;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  position:absolute;
+  margin-top:90px;
+  margin-left:70px;
+}
+
+.label {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.lform {
+  position: absolute;
+  top:150px;
+  left:120px;
+}
+
+.forminputtext{
+  border-radius: 10px;
+  height:30px;
+  width: 500px;
+}
+
+.address {
+  border-radius: 10px;
+  resize: none;
+}
+
+.spots {
+  border-radius: 10px;
+  height:30px;
+  width: 90px;
+  position:absolute;
+  margin-left:30px;
+  bottom:0px;
+}
+
+.rform {
+  position: absolute;
+  top:150px;
+  right:120px;
+}
+
+.submit {
+  border-color: #ffffff;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: auto;
+  position: absolute;
+  width: 110px;
+  height:50px;
+  padding-bottom: 10px;
+  margin-left: 640px;
+  margin-top:520px;
+}
+
+.submit:hover{
+  color:black;
+  background-color: rgb(20, 214, 253);
+}
+
+.anch {
+  text-decoration: none;
+}
+
+.font {
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  position:absolute;
+  min-width: 500px;
+  min-height: 150px;
+  top:320px;
+  right:125px;
+  box-shadow: 0px 20px 35px 0px rgba(0,0,0,0.05);
+  border-radius: 7px;
+  border-color: 0.5px rgb(161, 161, 161);
+}
+
+.fileup {
+  display: none;
+}
+
+.choicebox {
+  display: block;
+  background-color: rgb(20, 214, 253);
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width:190px;
+  padding: 7px 0;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.container p {
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+#images {
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0c0c0c;
+  padding: 20px;
+  margin:50px -10px -10px -10px;
+}
+
+.infof {
+  color: #00ccff;
+  font-size: 18px;
+}
+.mail {
+  padding: 5px;
+  width: 250px;
+}
+
+.smail {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #00ccff;
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: #00ccff;
+}
+.infof1{
+  font-size: 14px;
+  
+}

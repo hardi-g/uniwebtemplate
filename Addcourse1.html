@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="styles/Addcourse1.css">
+
+    <title>Home</title>
+</head>
+<body style="overflow: hidden;">
+    <div class="header">
+        <ul>
+            <li style="padding-right: 730px;">University</li>
+            <a href=""><li>Home</li></a>
+            <a href="//department1"><li>Departments</li></a>
+            <a href="/courses1"><li><u>Courses</u></li></a>
+            <a href="/Profile1"><li>Profile</li></a>
+        </ul>
+    </div>
+
+    <div style="font-family: 'Poppins';">
+        <h1 style="position: relative; margin-left: 40px; margin-top:10px;">
+            Add Course
+        </h1>
+
+        <form method="post" action="/Addcourses1">
+            <label class="label">Name of the Course</label>
+            <input class="ip" style="margin-left:50px;" name="coursename">
+            <br><br>
+            
+            <label class="label">Number of Hours</label>
+            <input class="ip" style="margin-left:50px;" name="hours">
+            <br><br>
+
+            <label class="label">Number of Credits</label>
+            <input class="ip" style="margin-left:50px;" name="credits"><br><br>
+
+            <label class="label">Platform</label>
+            <input class="ip" style="margin-left:50px;" name="platform"><br><br>
+
+            <label class="label">Certificate if available</label>
+            <input class="ip" style="margin-left:50px;" name="certificiate"><br><br>
+
+            <label class="labelbig">Brief Description</label><br><br>
+            <textarea cols="120" rows="5" class="iparea" name="breif"></textarea><br>
+
+            <label class="labelbig2">Complete Description of the Course</label><br>
+            <textarea cols="150" rows="10" class="iparea2" name="complete"></textarea>
+
+            <button type="submit" class="submit"  >Submit</button>
+        </form>
+    </div>
+</body>
+</html>
